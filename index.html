@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script>
+    function sendEmail() 
+    {
+        window.location = "mailto:atheshwarank21cs@psnacet.edu.in";
+    }
+    function visitres() 
+    {
+        window.location = "https://drive.google.com/file/d/1vHc-4obXk2Hrf2DUqkF8uDOuP9gylrrA/view?usp=share_link";
+    }
+    function visitgit(){
+        window.location='https://github.com/yoshimitsu-7';
+    }
+    function visitlink(){
+        window.location='https://www.linkedin.com/in/atheshwaran/';
+    }
+    function visittwitter(){
+        window.location='https://twitter.com/AuthenticArist1?t=BW8Ij_xzUZQSp8EbpkQrQw&s=09';
+    }
+    function visitfb(){
+        window.location='https://www.facebook.com/maxmaker.maxmaker.52?mibextid=ZbWKwL';
+    }
+    function visitinsta(){
+        window.location='http://instagram.com/authentic_aristocrat?utm_source=qr';
+    }
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/648edfac72.js" crossorigin="anonymous"></script>
+  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images\code-solid.svg">
+
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+
+      <nav class="navbar  navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#"><i class="fa-solid fa-code"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Achievement</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Atheshwaran</h1>
+          <h5>Web Developer</h5>
+          <button type="button" onclick="visitres();" class="donbtn btn-dark btn-lg download-button"><i class="fa-solid fa-file"></i>   Download Resume</button>
+          
+        </div>
+        <div class="col-lg-6">
+          <img class="titleimage" src="images/coding.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <h2>Skills</h2>
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-code fa-4x"></i>
+        <h3>Developer</h3>
+        <p>Intermediate experience and knowledge in Web development</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="java icon fa-brands fa-java fa-5x"></i>
+        <h3>Competitive Programming</h3>
+        <p>Good knowledge and capability of  solving programming problems</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="network icon fa-solid fa-wifi fa-3x"></i>
+        <h3>Networking</h3>
+        <p>Have a decent knowledge about basics of networking and socket programming</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+
+
+  <section id="testimonials">
+    <h2 class="ach">Achievements</h2>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="ach-cont">Successfully completed IoT(Internet of Things) Workshop conducted by Innovains technology,Varanasi and secured Second place at a IoT Competition held by them and qualified to participate in a national level technical competition at IIT,Varanasi</h2>
+          <img class="testimonials-img" src="images/ino.png" alt="profile">
+          <em>Innovains Technologies,Uttar Pradesh</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class= "ach-cont  testimonial-text">Participated in many competitive competitions such as Google Kickstart, Accenture Hackathon, TCS codevita and gained atmost knowledge from it and progressing towards excellence</h2>
+
+
+          <img class="testimonials-img" src="images/google.png" alt="google-profile">
+          <em>Google Kickstart</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class= "ach-cont  testimonial-text">Developed a Multichat Server using JavaFx and socket programming and published through Github.Multi-chat server is a GUI-application that enables users to chat among them in a Good Interface.
+            It is a Project that utilizes various fields of techniques and concepts like JAVA,JAVA-FX,SOCKET PROGRAMMING,NETWORKING CONCEPTS. </h2>
+          <img class="testimonials-img" src="images/messenger.png" alt="google-profile">
+          <em>Messenger application</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>About me</h2>
+    <p class="abt">A Sophomore with good developing skills and problem solving skills, determined with strong motive to ensure my knowledge to the
+      excellence in my field and reach my goals with excellence.I am currently pursuing my Bachelor of Engineering degree in PSNA college of Engineering and Technology.I am expecting to pass out in 2025 and I have participated in various club activities and events in my institution.I have a great interest in Web-Development,Networking concepts and Competitive Programming.I am consistently participating in Codechef Contests and I am currently at a 2-Star level and expecting to achieve 4-Star within 2024.I have a great interest in Internet Of Things and participated in few workshops.My hobbies is to develop designs and ideas in my field of interest and solve problems in coding.My other hobbies are to watch Anime and Web-Series and to solve rubik cubes.My current goal is to gain knowledge as much as possible in my field of Computer Science and to get a job that satisfy my both financial and mental dependencies.</p>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="contact">Contact me</h3>
+    <div class="row">
+      
+    <button type="button" onclick="visitgit();"class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-github"></i> Github </button>
+    <button type="button"onclick="sendEmail();"  class="btn btn-outline-light btn-lg download-button"><i class="fa-sharp fa-solid fa-envelope"></i> Gmail </button>
+    <button type="button"onclick="visittwitter();" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-twitter"></i> Twitter</button>
+    <button type="button"onclick="visitlink();" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-linkedin"></i> LinkedIn</button>
+      <button type="button"onclick="visitfb();" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-facebook"></i> Facebook</button>
+      <button type="button" onclick="visitinsta();" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-instagram"></i> Instagram</button>
+     
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    
+    <p>© Copyright Atheshwaran</p>
+
+  </footer>
+
+
+</body>
+
+</html>
